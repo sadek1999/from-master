@@ -1,5 +1,6 @@
 
 import './App.css'
+import Submitfrom from './component/submit/Submitfrom'
 
 function App() {
  
@@ -8,6 +9,7 @@ function App() {
     <>
       
       <h1 className='text-3xl'>Vite + React</h1>
+      <Submitfrom></Submitfrom>
      
     </>
   )
