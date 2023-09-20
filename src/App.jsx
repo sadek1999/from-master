@@ -1,6 +1,7 @@
 
 import './App.css'
-import Submitfrom from './component/submit/Submitfrom'
+import Simplefrom from './component/simpleform/Simplefrom'
+// import Submitfrom from './component/submit/Submitfrom'
 
 function App() {
  
@@ -9,7 +10,8 @@ function App() {
     <>
       
       <h1 className='text-3xl'>Vite + React</h1>
-      <Submitfrom></Submitfrom>
+      <Simplefrom></Simplefrom>
+      {/* <Submitfrom></Submitfrom> */}
      
     </>
   )
